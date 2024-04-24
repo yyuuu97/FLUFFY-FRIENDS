@@ -1,0 +1,33 @@
+body{
+    border: 1px solid red;
+}
+header,nav{
+    border: 1px solid black;
+    font-size: 30pt;
+}
+nav{width: 30%;
+    background-color: darkgrey;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: block;
+    font-size: 20pt;
+    border-bottom: 1px solid beige;
+    padding-top: 10px;
+}
+a:link{
+    color: beige;
+}
+a;visited{
+    color: darkslategray;
+}
+a:hover{
+    color: beige;
+    text-shadow: 2px 2px 3px black;
+}
+a:active{
+    color: red;
+}
